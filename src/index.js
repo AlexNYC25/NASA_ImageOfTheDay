@@ -4,9 +4,28 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Header from './Components/Header'
+import Search from './Components/SearchDate'
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+
+      <Header />
+      
+      <Switch>
+        <Route path="/search">
+          <Search />
+        </Route>
+        <Route path="/">
+          <App />
+        </Route>
+        
+      </Switch>
+      
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

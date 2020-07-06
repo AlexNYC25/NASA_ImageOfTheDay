@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*
+
+*/
+
+.header-section{
+  background-color: #2F4858;
+  color: #86BBD8;
+  width: 100%;
+
+}
+
+.App {
+  background-color: #33658a;
+  width: 100%;
+  height: 100%;
+}
+
+.search-container {
+  background-color: #33658a;
+  width: 100%;
+  height: 100vh;
+}
+
+html,body {
+  background-color: #33658a;
+  height: 100vh;
+}
+
+.form-label {
+  font-size: 24px;;
+}
+
+#picture-menu{
+  background-color: #86BBD8;
+  
+}
+
+#picture-data{
+  background-color: #5ba8d1;
+}
+
+
+#picture-menu li a{
+  font-size: 24px;
+  color: #3d1669;
+}
+
+.picture-content-heading{
+  font-size: 40px;
+  color: #732fc2;
+}
